@@ -1,2 +1,8 @@
 # yt-py-downloader
-This repository can save YouTube videos. This is currently WIP.
+This repository can save YouTube videos.
+
+## CAUTION
+This is currently WIP.
+
+## Known issues
+No current known issues.
