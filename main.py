@@ -14,7 +14,7 @@ def DownloadAudioAndVideo(link, output_dir, video_quality, max_retries=3):
             elif video_quality == 'lowest':
                 video_stream = youtube.streams.filter(res='144p').first()
             else:
-                valid_resolutions = ['360p', '720p', '1080p', '1440p', '2160p']
+                valid_resolutions = ['144p', '240p', '360p', '480p', '720p', '1080p', '1440p', '2160p']
                 if video_quality in valid_resolutions:
                     video_stream = youtube.streams.filter(res=video_quality).first()
                 else:
